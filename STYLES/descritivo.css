@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color:rgb(248, 173, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+}
+header{
+    border-radius: 8px;
+    background-color:sandybrown;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+.foto{
+    border-radius: 8px;
+    width: 10cm;
+    height: 12cm;
+}
+.descritivo{
+    border-radius: 8px;
+    padding: 60px;
+    background-color:sandybrown;
+    text-align: left;
+    font-size: 15px;
+    color:black;
+}
+.rodape{
+    border-radius: 2px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    font-size: 10px;
+    color:black;
+}
