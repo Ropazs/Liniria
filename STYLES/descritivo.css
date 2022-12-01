@@ -27,10 +27,11 @@ header{
     font-size: 15px;
     color:black;
 }
-.rodape{
+footer{
+    flex-direction: column ;
     border-radius: 2px;
-    padding: 20px;
-    background-color: white;
+    padding: 10px;
+    background-color: sandybrown;
     text-align: center;
     font-size: 10px;
     color:black;
