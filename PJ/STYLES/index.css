@@ -13,8 +13,8 @@ body {
     opacity: 1;
     filter: grayscale(100%);
     display: inline-table;
-    width: 5cm;
-    height: 5cm;
+    width: 4.9cm;
+    height: 4.9cm;
     transition: .5s ease;
     backface-visibility: hidden;
     border-radius: 8px;
