@@ -3,78 +3,71 @@
     <head>
         <meta charset="UTF-08">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tangerine">
+        <link rel="stylesheet" type="text/css" href="./STYLES/index.css">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;  </span>
         <title>Liniria</title>
     </head>
     <body>
-        <table>
-            <tr>
-                <th aling="center" width="150">
-                    <div class="container">
-                        <a href=".\PJ\Aldenor.html"><img src=".\IMAGENS\Aldenor.jpg" alt="Avatar" class="foto">
-                        <div class="middle">
-                          <div class="text">Aldenor</div>
-                        </div></a>
-                    </div>
-                </th>
-                <th aling="center" width="150">
-                    <div class="container">
-                        <a href=".\PJ\Nok.html"><img src=".\IMAGENS\Nok.jpg" alt="Avatar" class="foto">
-                        <div class="middle">
-                          <div class="text">Nok</div>
-                        </div></a>
-                    </div>
-                </th>
-                <th aling="center" width="150">
-                    <div class="container">
-                        <a href=".\PJ\Michael.html"><img src=".\IMAGENS\Michael.jpg" alt="Avatar" class="foto">
-                        <div class="middle">
-                          <div class="text">Michael</div>
-                        </div></a>
-                    </div>
-                </th>
-                <th aling="center" width="150">
-                    <div class="container">
-                        <a href=".\PJ\Thiago.html"><img src=".\IMAGENS\Thiago.jpg" alt="Avatar" class="foto">
-                        <div class="middle">
-                          <div class="text">Thiago</div>
-                        </div>
-                    </div>
-                </th>
-                <th aling="center" width="150">
-                    <div class="container">
-                        <a href=".\PJ\Lucas.html"><img src=".\IMAGENS\Lucas.jpg" alt="Avatar" class="foto">
-                        <div class="middle">
-                          <div class="text">Lucas</div>
-                        </div></a>
-                    </div>
-                </th>
-                <th aling="center" width="150">
-                    <div class="container">
-                        <a href=".\PJ\Dan.html"><img src=".\IMAGENS\Dan.jpg" alt="Avatar" class="foto">
-                        <div class="middle">
-                          <div class="text">Dan</div>
-                        </div></a>
-                    </div>
-                </th>
-                <th aling="center" width="150">
-                    <div class="container">
-                        <a href=".\PJ\Hugo.html"><img src=".\IMAGENS\Hugo.jpg" alt="Avatar" class="foto">
-                        <div class="middle">
-                          <div class="text">Hugo</div>
-                        </div></a>
-                    </div>
-                </th>
-            </tr>
-            <tr>
-                <th colspan="7">
-                    Click no seu destino (por hora só porto dos trolls) <br>
-                    <img src=".\IMAGENS\mapamundi.jpg" alt="image" height="70%" width="70%" usemap="#Map" class="mapa" >
-                    <map name="Map" id="Map">
-                        <area title="Porto dos Trolls" alt="" title="" href="./LOCALIDADES/porto-dos-trolls.html" shape="circle" coords="320,290,35" />
-                    </map> 
-                </th>           
-            </tr>
-        </table>
+        <header><b>Liniria</b></header>
+        <div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Personagens</a>
+                <a href="#">Deuses</a>
+                <a href="#">Localidades</a>
+                <a href="#">NPC's</a>
+            </div>
+
+            <div class="descritivo">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Ut at lectus dictum tortor sollicitudin tempus. 
+                Donec bibendum sapien cursus nisl luctus commodo. 
+                Sed posuere neque nec dictum tempor. 
+                Suspendisse accumsan consequat odio, eget dictum ipsum. 
+                Sed fringilla felis nec lacus mattis, id viverra purus aliquet. 
+                Donec iaculis rhoncus aliquet. 
+                Curabitur at maximus velit.Cras sed laoreet odio. 
+                Donec blandit dui ut nunc dictum dapibus. 
+                Praesent id eros ipsum. 
+                Sed cursus diam vitae suscipit bibendum. 
+                Aliquam erat volutpat. 
+                Sed venenatis, elit a pretium suscipit, ipsum augue ultricies velit, nec mattis quam odio facilisis dolor. 
+                Proin hendrerit pharetra mi, vel imperdiet sapien cursus id.
+                Maecenas convallis ante pellentesque, laoreet magna eget, blandit dui.
+                Integer ut nunc purus. 
+                Aliquam turpis erat, posuere at dignissim bibendum, varius sed nisl. 
+                Cras iaculis ullamcorper augue, eget maximus eros luctus ac. 
+                Curabitur nec tellus non odio volutpat fermentum quis id orci. 
+                Morbi quis vulputate diam. 
+                Duis sit amet convallis tellus, eu accumsan turpis. 
+                Quisque id ipsum eget libero egestas lobortis. 
+                Morbi laoreet sed augue et tristique. 
+                Maecenas pellentesque ipsum nec eros pretium, non lobortis lorem pretium. 
+                Cras sit amet elit accumsan, porttitor nibh ut, vulputate ante. Sed quis porttitor metus. 
+                Morbi tincidunt euismod porttitor. Nulla condimentum tincidunt varius.
+            </div>
+
+        </div>
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+
     </body>
+    <footer>
+        <a href="./PJ/Aldenor.html">Aldenor</a> 
+        <a href="./PJ/Nok.html">Nok</a> 
+        <a href="./PJ/Thiago.html">Thiago</a> 
+        <a href="./PJ/Lucas.html">Lucas</a> 
+        <a href="./PJ/Dan.html">Dan</a> 
+        <a href="./PJ/Michael.html">Michael</a> 
+        <a href="./PJ/Hugo.html">Hugo</a> 
+        <br><a href="index.html">Página Inicial</a>
+    </footer>
 </html>

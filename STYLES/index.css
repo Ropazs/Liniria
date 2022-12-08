@@ -7,6 +7,7 @@ body {
     margin-top: 2px;
 }
 header{
+    margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
     background-color:#FFB655;
@@ -15,18 +16,6 @@ header{
     font-family: Tangerine;
     font-size: 35px;
     color: #6832B3;
-}
-.foto{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    float: left;
-    display: block;
-    border-radius: 10px;
-    background-color:sandybrown;
-    width: 5cm;
-    height: 6cm;
 }
 .descritivo{
     margin-bottom: 5px;
@@ -47,3 +36,41 @@ footer{
     font-size: 10px;
     color:#6832B3;
 }
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFB655;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #6832B3;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #13e047;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
